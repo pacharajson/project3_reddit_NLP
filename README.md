@@ -19,39 +19,39 @@ I divided 2 notebooks (scrape_applew_reddit and scrape_garmin_reddit), and save 
 ![wordcloud.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/wordcloud.png)
 This is wordcloud I got from before vectorize, tokenize and other methods. 
 
-![freqdist_before_vec.png](../image/freqdist_before_vec.png)
+![freqdist_before_vec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/freqdist_before_vec.png)
 This is frequenct distribution before vectorize. There are many words which may not predict which one is garmin or apple watch.
 
-![freqdist_after_vec.png](../image/freqdist_after_vec.png)
+![freqdist_after_vec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/freqdist_after_vec.png)
 When I felt the visualized above may not be effective. Then, I used custom stopwords by define function to remove punctuation marks, articles(a,an,the), Pronoun(I, he, she, it) to remove them.
 
 ## Evaluation and Conceptual Understanding
 Before I create models, I used countvertorized (CVEC) and TVEC, and then I applied 10 models (Naive Bayes, Random Forest, Adaboost, Logistic Regression, and SVC)
 
 ### Multinomials Naive Bayes
-![nb_cvec.png](../image/nb_cvec.png)
+![nb_cvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/nb_cvec.png)
 
-![nb_tvec.png](../image/nb_tvec.png)
+![nb_tvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/nb_tvec.png)
 
 ### Random Forest
-![rf_cvec.png](../image/rf_cvec.png)
+![rf_cvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/rf_cvec.png)
 
-![rf_tvec.png](../image/rf_tvec.png)
+[![rf_tvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/rf_tvec.png)
 
 ### Logistic Regression
-![lr_cvec.png](../image/lr_cvec.png)
+![lr_cvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/lr_cvec.png)
 
-![lr_tvec.png](../image/lr_tvec.png)
+![lr_tvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/lr_tvec.png)
 
 ### Adaboost
-![ada_cvec.png](../image/ada_cvec.png)
+![ada_cvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/ada_cvec.png)
 
-![ada_tvec.png](../image/ada_tvec.png)
+![[ada_tvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/ada_tvec.png)
 
 ### SVC
-![svc_cvec.png](../image/svc_cvec.png)
+![svc_cvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/svc_cvec.png)
 
-![svc_tvec.png](../image/svc_tvec.png)
+![svc_tvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/svc_tvec.png)
 
 ## Conclusion
 Based on the results above, the best model is `Logistic Regression` with CVEC.
