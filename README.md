@@ -36,7 +36,7 @@ Before I create models, I used countvertorized (CVEC) and TVEC, and then I appli
 ### Random Forest
 ![rf_cvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/rf_cvec.png)
 
-[![rf_tvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/rf_tvec.png)
+![rf_tvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/rf_tvec.png)
 
 ### Logistic Regression
 ![lr_cvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/lr_cvec.png)
