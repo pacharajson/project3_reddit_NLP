@@ -17,12 +17,15 @@ I divided 2 notebooks (scrape_applew_reddit and scrape_garmin_reddit), and save 
 
 ## Exploratory Data Analysis
 ![wordcloud.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/wordcloud.png)
+
 This is wordcloud I got from before vectorize, tokenize and other methods. 
 
 ![freqdist_before_vec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/freqdist_before_vec.png)
+
 This is frequenct distribution before vectorize. There are many words which may not predict which one is garmin or apple watch.
 
 ![freqdist_after_vec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/freqdist_after_vec.png)
+
 When I felt the visualized above may not be effective. Then, I used custom stopwords by define function to remove punctuation marks, articles(a,an,the), Pronoun(I, he, she, it) to remove them.
 
 ## Evaluation and Conceptual Understanding
