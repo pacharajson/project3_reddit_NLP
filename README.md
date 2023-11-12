@@ -46,7 +46,7 @@ Before I create models, I used countvertorized (CVEC) and TVEC, and then I appli
 ### Adaboost
 ![ada_cvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/ada_cvec.png)
 
-![[ada_tvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/ada_tvec.png)
+![ada_tvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/ada_tvec.png)
 
 ### SVC
 ![svc_cvec.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/svc_cvec.png)
