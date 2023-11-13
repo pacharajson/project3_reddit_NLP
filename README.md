@@ -15,12 +15,15 @@ I divided 2 notebooks (scrape_applew_reddit and scrape_garmin_reddit), and save 
 
 ## Exploratory Data Analysis
 ![cleaned_wordcloud.png](image/cleaned_wordcloud.png)
+
 This is wordcloud I got from before vectorize, tokenize and other methods. 
 
 ![freqdist_before_vec.png](image/freqdist_before_vec.png)
+
 This is frequency distribution before cleaning. There are many words which may not predict which one is garmin or apple watch.
 
 ![freqdist_after_vec.png](image/freqdist_after_vec.png)
+
 This is after cleaning data. When I felt the visualized above may not be effective. Then, I used custom stopwords by define function to remove punctuation marks, articles(a,an,the), Pronoun(I, he, she, it) to remove them.
 
 ## Evaluation and Conceptual Understanding
@@ -53,13 +56,15 @@ Before I create models, I used countvertorized (CVEC) and TVEC, and then I appli
 
 
 **Best Model Ouput**
+
 ![lr_predict_output.png](image/lr_predict_output.png)
+
 Lastly, I got the best model which is `Logistic Rregression` with `CVEC` which train score: 96% & test score: 94% (good fit) 
 and accuracy, precision, recall, and F1 score: 93% all the same.
 
 ### Error Analysis
 #### Misclassified Posts
-![misclassified_post.png](image/misclassified_post.png)
+![misclassified post.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/misclassified%20post.png)
 
 I found that there are some posts are not correct predicted above. For example, Best watch apps for working out at gym? The prediction gave me "Garmin", but it is actually "Apple Watch". That means the prediction is false positive. On the other hand, How to get the g96 Mark Waypoint function? The prediction gave me "Apple Watch", but it is actually "Garmin". This means the prediction is false negative.
 
