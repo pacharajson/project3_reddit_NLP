@@ -16,7 +16,7 @@ Plus, I used regular expression to find emoji and \n, and then, I removed these 
 I divided 2 notebooks (scrape_applew_reddit and scrape_garmin_reddit), and save to csv files(garmin_df.csv and applew.csv).
 
 ## Exploratory Data Analysis
-![wordcloud.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/wordcloud.png)
+![wordcloud.png](../image/wordcloud.png)
 
 This is wordcloud I got from before vectorize, tokenize and other methods. 
 
