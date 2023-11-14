@@ -64,15 +64,15 @@ and accuracy, precision, recall, and F1 score: 93% all the same.
 
 ### Error Analysis
 #### Misclassified Posts
-![misclassified post.png](https://github.com/pacharajson/project3_reddit_NLP/blob/main/image/misclassified%20post.png)
+![misclassified_post.png](image/misclassified_post.png)
 
 I found that there are some posts are not correct predicted above. For example, Best watch apps for working out at gym? The prediction gave me "Garmin", but it is actually "Apple Watch". That means the prediction is false positive. On the other hand, How to get the g96 Mark Waypoint function? The prediction gave me "Apple Watch", but it is actually "Garmin". This means the prediction is false negative.
 
 ### Feature Analysis
-![top20_features](image/top20_features.png)
+![top_20_features.png](image/top_20_features.png)
 This hozizontal bar graph tells that what reddit users talked about smart watch the most by word. Most of y-axis variables are talked about Garmin related, for example, fenix, vivoactive, forerunner, 235, 645 (Garmin Series) and other features. 
 
-![coef_output](image/coef_output.png)
+![coef_output.png](image/coef_output.png)
 
 This table showed the most important words for each subreddit. Coefficient number in the table shows how many times in exponential to show posts. For example, 3.79 times of fenix will show on the posts.
 
